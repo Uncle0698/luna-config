@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "lunaconfig",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Luna Config",
+  "description": "Luna",
   "authors": [
-    "Turnip Labs"
+    "Lunatic Uncle"
   ],
   "contact": {
     "homepage": "",
@@ -19,24 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"org.lunaticuncle.lunaconfig.LunaConfig"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"org.lunaticuncle.lunaconfig.LunaConfig"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"org.lunaticuncle.lunaconfig.LunaConfig"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"lunaconfig.mixins.json"
   ],
 
   "depends": {
-		"minecraft": "~7.1",
     "fabricloader": ">=0.15.5"
   },
   "suggests": {
