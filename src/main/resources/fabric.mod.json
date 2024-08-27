@@ -26,6 +26,9 @@
 		],
 		"afterGameStart": [
 			"org.lunaticuncle.lunaconfig.LunaConfig"
+		],
+		"modmenu": [
+			"org.lunaticuncle.lunaconfig.TestModMenuApiImpl"
 		]
 	},
   "mixins": [

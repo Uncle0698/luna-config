@@ -1,4 +1,4 @@
-package org.lunaticuncle.lunaconfig;
+package org.lunaticuncle.lunaconfig.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
